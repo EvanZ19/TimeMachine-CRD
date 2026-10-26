@@ -1,0 +1,29 @@
+# Machine-specific configuration and credentials
+local.properties
+**/local.properties
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+
+# Build outputs and IDE files
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local caches and OS files
+.DS_Store
+Thumbs.db
